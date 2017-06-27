@@ -1,8 +1,8 @@
-# https://adhocteam.us/ - the Ad Hoc public website 🌎
+# https://styleguide.adhoc.team/ - the Ad Hoc Style guide
 
 ## Introduction 0️⃣
 
-[`https://adhocteam.us/`](https://adhocteam.us/) is a
+[`https://adhocteam.us/`](https://styleguide.adhocteam.us/) is a
 [Jekyll](https://jekyllrb.com/) site. The generated site is hosted on
 a VM instance in Ad Hoc’s AWS account.
 
