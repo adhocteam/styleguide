@@ -1,0 +1,73 @@
+name: Ad Hoc Style Guide
+description: >
+  Design and Brand Style Guide for Ad Hoc.
+# for twitter card
+image: /assets/img/design/icons/apple-icon-touch-157-precomposed.png
+#URL of site, include http://, do not include a trailing slash
+#url: http://localhost:4000
+twitter_username: 'adhocteam'
+url: https://styleguide.adhocteam.team
+
+#files to exclude, array
+exclude:
+  - "/vendor/bundle"
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Rakefile
+  - README.md
+  - tests
+
+#posts per page
+# paginate:
+
+#number of items in RSS feed
+rss_limit: 20
+
+#permalink structure, see https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:day/:title/
+
+#whether production or dev, minifies JS, bool
+production: true
+
+#build config
+
+kramdown:
+  parse_block_html: true
+
+timezone: America/New_York
+encoding: UTF-8
+safe: true
+
+markdown: kramdown
+
+collections:
+  team:
+    output: false
+  product:
+    output: true
+    permalink: /:title/
+  programs:
+    output: true
+    permalink: /:title/
+
+defaults:
+    -
+        scope:
+            paths: ""
+            type: "posts"
+        values:
+            excerpt: ""
+            team: ""
+            share-image: ""
+            layout: post
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+  images_dir: 'img/content'
+  javascripts_dir: 'assets/js'
+
+gems:
+  - jekyll-sitemap

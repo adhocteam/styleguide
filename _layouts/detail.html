@@ -1,0 +1,57 @@
+---
+layout: home
+---
+<div class="main case-study" role="main">
+
+  <div class="primary interior">
+
+    <div class="splash study">
+      <div class="clearfix">
+        <div class="sm-col-5 md-col-8 mx-auto">
+          <h2 class="h3 centered">{{ page.sub_title }}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix">
+        <div class="col-12 md-col-9 mx-auto">
+          <img class="feature big" src="{{ page.header_img | prepend: site.url }}" alt="logo" />
+        </div>
+      </div>
+
+
+    <div class="write-up">
+        <div class="clearfix">
+          <div class="col-12 md-col-7 mx-auto">
+
+            {{ content }}
+
+          </div>
+
+        </div>
+
+
+        {% for callout in page.callouts limit: 3 %}
+        {% if forloop.first %}
+        <div class="secondary interior">
+          <div class="clearfix">
+        {% endif %}
+            <div class="col-12 md-col-4 col p1">
+                <div class="item">
+                    <h4>{{ callout.heading }}
+                        {% if callout.sub_heading %}
+                        <span>{{ callout.sub_heading }}</span>
+                        {% endif %}
+                    </h4>
+                    {{ callout.content | markdownify }}
+                </div>
+            </div>
+        {% if forloop.last %}
+
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+</div>

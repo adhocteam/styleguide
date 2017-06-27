@@ -1,0 +1,36 @@
+---
+layout: home
+---
+
+<div class="main" role="main">
+  <div class="primary interior">
+
+    <div class="clearfix p1">
+      <div class="col-12 md-col-7 mx-auto">
+
+        <h2 class='h1'>{{ page.title }}</h2>
+
+        {{ content }}
+
+        <ul class="blog-post-index list-reset">
+          {% for post in site.posts %}
+            <li class="blog-post">
+              <a href="{{ post.url }}">
+              <div class="clearfix">
+                  <div class="col col-2 pr2">
+                    <img src="{{ site.url }}/{{ post.share-image }}" alt="post thumbnail">
+                  </div>
+                <div class="col col-10">
+                  <span class="blog-post-pubdate">{{ post.date | date: "%b %d, %Y" }}</span>
+                  <span class="blog-post-title">{{ post.title }}</span>
+                </div>
+                </a>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>

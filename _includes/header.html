@@ -1,0 +1,94 @@
+<!doctype html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><html class="no-js ie-good" lang="en"><![endif]-->
+<!--
+
+   ___     __  __ __
+  / _ |___/ / / // /__  ____
+ / __ / _  / / _  / _ \/ __/
+/_/ |_\_,_/ /_//_/\___/\__/
+
+https://github.com/adhocteam/homework
+
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta content='website' property='og:type'>
+  <title>{% if page.title %}{{ page.title }} - Ad Hoc{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'vhb1ims',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+
+
+
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/assets/img/design/icons/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/assets/img/design/icons/apple-icon-touch-57-precomposed.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/design/icons/apple-icon-touch-72-precomposed.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/design/icons/apple-icon-touch-114-precomposed.png">
+  <link rel="apple-touch-icon" sizes="157x157" href="/assets/img/design/icons/apple-icon-touch-157-precomposed.png">
+
+  <!-- Basscss -->
+  <link href="https://npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-responsive-margin@1.1.0/css/responsive-margin.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-responsive-padding@1.1.0/css/responsive-padding.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-responsive-type-scale@1.0.1/css/responsive-type-scale.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-responsive-typography@1.0.1/css/responsive-typography.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-hide@1.0.1/css/hide.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss-grid@2.0.0/css/grid.css" rel="stylesheet">
+
+  <!-- our css -->
+  <link rel='stylesheet' href='/assets/css/style.css?v={{ site.github.build_revision }}'>
+
+  <script src="/assets/js/adhoc.js"></script>
+  <script src="/assets/js/vendor/jquery-1.7.2.min.js"></script>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - Ad Hoc{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.title }}{% endif %}">
+  {% if page.share-image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.share-image }}">
+  {% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/img/content/design/twitter-card.png">
+  {% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - Ad Hoc{% else %}{{ site.title }}{% endif %}">
+  {% if page.share-image %}
+  <meta property="og:image" content="{{ site.url }}/{{ page.share-image }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/img/content/design/twitter-card.png">
+  {% endif %}
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.title }}{% endif %}">
+  <meta property="og:site_name" content="Ad Hoc">
+  <meta property="og:locale" content="en_US">
+
+
+
+</head>
+
+<body class="{{ page.layout }} post{{ page.id | replace:"/","-" }}">
+
+  <header class="header" role="banner">
+    <div class="clearfix mxn2 p1">
+  		<div class="col col-12">
+        <h1><a href="/">Ad Hoc</a></h1>
+        <h2>Style guide</h2>
+  		</div>
+
+    </div>
+  </header> <!-- /.header-->

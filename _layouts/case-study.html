@@ -1,0 +1,124 @@
+---
+layout: home
+---
+{% comment %}
+This uses the post’s YAML "team" to match against the team
+collection, matching against the "relative_path" of the team member's
+file. This in theory gives us a bit more "precision", as you can copy+paste the
+name of the team member's file.
+
+You can also set a custom author name and photo in the post’s YAML.
+{% endcomment %}
+
+{% if page.team %}
+  {% assign author_path = page.team | prepend: '_team/' | append: '.md'  %}
+  {% assign author = site.team | where:"relative_path", author_path | first %}
+  {% assign author_name = author.title  %}
+  {% assign author_photo = author.photo | prepend: site.url %}
+{% else %}
+  {% assign author_name = page.author %}
+  {% assign author_photo = page.author_photo | prepend: site.url %}
+{% endif %}
+
+  <div class="primary interior post" role="main">
+    <div class="clearfix p1 mx-auto">
+      <div class="col-12 sm-col-10 md-col-7 mx-auto pb4 pt3">
+        <div class="article-meta">
+
+          {% if author_name %}
+          {% if author_photo %}
+          <span class="author-image">
+            <img src="{{ author_photo }}" alt="Photo of {{ author_name }}" />
+          </span>
+          {% endif %}
+          <span class="author">{{ author_name }}</span>
+          <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+        {% endif %}
+
+         </div>
+         <h2 class="m0 p0">{{ page.title }}</h2>
+         <h3 class="h4 m0 p0">{{ page.organization }}</h3>
+       </div>
+       {% if page.feature-image %}
+       <div class="col-12 sm-col-11 mx-auto pb4 pt0">
+          <div class="feature-image">
+            <img src="{{ site.url }}/{{ page.feature-image }}" alt="Photo of {{ page.title }}" />
+         </div>
+      </div>
+     {% else %}
+     {% endif %}
+     <div class="col col-12 sm-col-10 md-col-7 pb4 pt3">
+       {{ content }}
+       {% include share-page.html %}
+     </div>
+
+     <div class="col col-12 sm-col-10 md-col-4 pt0 sidebar" role="aside">
+       <div class="md-px4 md-pt4">
+
+         <!-- Team Members -->
+
+         {% for team-members in page.team-members %}
+         {% if forloop.first %}
+         <h4>Team Members</h4>
+         <ul class="list">
+           {% endif %}
+            <li>
+               {% if team-members.github-link %}
+               <a href="{{ team-members.github-link }}">
+                 {{ team-members.name }}
+                </a>
+                {% else %}
+                {{ team-members.name }}
+
+               {% endif %}
+             {{ team-members.content | markdownify }}
+           </li>
+           {% if forloop.last %}
+          </ul>
+         {% endif %}
+         {% endfor %}
+
+         <!-- Technology -->
+
+         {% for technology in page.technology %}
+         {% if forloop.first %}
+         <h4>Technology</h4>
+         <ul class="list">
+           {% endif %}
+              <li>
+                {{ technology }}
+              </li>
+             {% if forloop.last %}
+           </ul>
+         {% endif %}
+         {% endfor %}
+
+         <!-- Duration -->
+
+         {% if page.duration %}
+         <h4>Duration</h4>
+          {{ page.duration }}
+         {% endif %}
+
+       </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="secondary pt1 pb3">
+      <div class="clearfix p1 mx-auto">
+        <div class="col-12 sm-col-7 mx-auto">
+          <div class="keep-reading">
+            <h3>Keep reading</h3>
+            <ol class="post-links post-list">
+              {% if page.previous %}
+                {% include post-summary.html post=page.previous %}
+              {% elsif page.next %}
+                {% include post-summary.html post=page.next %}
+              {% endif %}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,70 @@
+---
+layout: home
+---
+
+<div class="main" role="main">
+  <div class="primary interior alt">
+    <div class="clearfix p1">
+      <div class="col-12 md-col-8">
+        <h2>{{ page.hiring_subtitle }}</h2>
+        {{ page.hiring_description }}
+      </div>
+    </div>
+
+    <div class="clearfix p1">
+      <div class="col-12 md-col-8" id="open-positions">
+        <h3>Open positions</h3>
+        <style>
+        .whr-title {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+        .whr-info {
+          display: none;
+        }
+        </style>
+        <script src='https://www.workable.com/assets/embed.js' type='text/javascript'></script>
+        <script type='text/javascript' charset='utf-8'>
+        whr(document).ready(function(){
+        whr_embed(94140, {detail: 'titles', base: 'jobs', zoom: 'city', grouping: 'none'});
+        });
+        </script>
+        <div id="whr_embed_hook"></div>
+      </div>
+    </div>
+
+    <div class="band">
+      <div class="clearfix p1">
+        <div class="col-12 md-col-8">
+          <h4 class="h2">Hiring process</h4>
+          <p>Some insight in to our hiring process, so you know what to expect.</p>
+          <p>
+            <b>For engineering/developer positions</b>
+            <ol class="basic">
+              <li>
+                Apply to one of the <a href="#open-positions">open position listed above</a>.
+              </li>
+              <li>
+                 Once you have applied, check out our <a href="https://github.com/adhocteam/homework/">code challenges</a>, and take a crack at one or two of the problems. Once you've completed the homework, create a Candidate account on <a href="https://adhocteam.herokuapp.com/candidates/sign_up">our recruiting site</a> and upload your solution(s).</li>
+              <li>We'll review your solutions, and if it seems like a good fit, we'll schedule calls or Google Hangouts with one or more members of our team to tell more about the company and the projects we're working on, and learn more about your background.</li>
+              <li>If all goes well, welcome to the team!</li>
+            </ol>
+          </p>
+          <p>
+            <b>For product/design/UX positions</b>
+            <ol class="basic">
+              <li>Apply for the job using one of the links above.</li>
+              <li>We'll review, and if your skills and background seem like a good fit for our team, we'll be in touch to schedule follow-up calls or Google Hangouts with one or more members of our team.</li>
+              <li>If all goes well, welcome to the team!</li>
+            </ol>
+          </p>
+        </div>
+      </div>
+      <div class="clearfix p1">
+        <div class="col-12 md-col-8">
+          <p>Ad Hoc LLC is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, national origin, ancestry, sex, sexual orientation, gender identity or expression, religion, age, pregnancy, disability, work-related injury, covered veteran status, political ideology, marital status, or any other factor that the law protects from employment discrimination.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

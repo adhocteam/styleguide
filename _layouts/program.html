@@ -1,0 +1,35 @@
+---
+layout: home
+---
+
+<div class="main case-study" role="main">
+  <div class="splash study py3">
+    <div class="clearfix">
+      <div class="sm-col sm-col-9">
+        <h2 class="pl2 sm-p0 sm-m0">{{ page.title }}</h2>
+        {% if page.program_subtitle %}
+          <p class="feature pl2 sm-p0 sm-m0 py2">{{ page.program_subtitle }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="primary">
+    {% if page.program_screenshot %}
+    <div class="clearfix mx-auto pb3">
+      <div class="px0">
+          <img class="feature" src="{{ site.url }}/{{ page.program_screenshot }}" alt="screenshot" />
+
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="write-up sm-pb4 sm-pt3 pl2">
+      <div class="clearfix">
+        <div class="sm-col sm-col-8 pr2">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

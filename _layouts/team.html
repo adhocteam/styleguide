@@ -1,0 +1,29 @@
+---
+layout: home
+---
+
+<div class="main" role="main">
+
+  <div class="primary interior">
+
+    <div class="clearfix p1">
+      <div class="col-12 sm-col-12 md-col-8">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+      </div>
+      <!-- /.small-12 columns -->
+    </div>
+
+    <div class="clearfix">
+      <div class="" data-ui="team-member">
+        {% for member in site.team %}
+          {% include team-member.html member=member  %}
+        {% endfor %}
+      </div>
+    </div>
+      <!-- /.row -->
+
+  </div>
+  <!-- /.primary.interior -->
+</div>
+<!-- /.main -->
