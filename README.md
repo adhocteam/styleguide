@@ -2,7 +2,7 @@
 
 ## Introduction 0️⃣
 
-[`https://adhocteam.us/`](https://styleguide.adhocteam.us/) is a
+[`https://styleguide.adhocteam.us/`](https://styleguide.adhocteam.us/) is a
 [Jekyll](https://jekyllrb.com/) site. The generated site is hosted on
 a VM instance in Ad Hoc’s AWS account.
 
