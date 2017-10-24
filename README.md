@@ -14,10 +14,10 @@ Ruby, version 2.0 or newer.
 1. **Install bundler.** Do: `gem install bundler`
 
 1. **Checkout the source.** Do: `git checkout
-git@github.com:adhocteam/adhocteam.github.io.git`
+git@github.com:adhocteam/styleguide.git`
 
 1. **Install Jekyll and its dependencies.** Do: `cd
-adhocteam.github.io && bundle install`
+styleguide && bundle install`
 
 ## Rebuilding the site locally 🔨
 
