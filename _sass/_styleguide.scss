@@ -53,10 +53,19 @@ dl, dd {
   display: block;
   margin: 0;
   padding: .25em 0;
+  img {max-width: 100%; border: 1px solid #ddd;}
 }
 
 dd {
   border-bottom: 1px solid #eee;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl.logo {
+  margin: 0 0 2em 0;
 }
 
 dd.color {
