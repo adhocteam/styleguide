@@ -69,5 +69,5 @@ sass:
   images_dir: 'img/content'
   javascripts_dir: 'assets/js'
 
-gems:
+plugins:
   - jekyll-sitemap

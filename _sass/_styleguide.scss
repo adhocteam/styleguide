@@ -1,0 +1,109 @@
+// Style Guide Styles
+
+// Variables
+
+$tertiary-color: #31B67B; // To do: Move this to the Ad Hoc core styles
+
+// Header
+
+header {
+  background: $primary-color;
+  h1 {
+    display: inline-block;
+    margin: .5em 0 .5em 0;
+  }
+  h2 {
+    display: inline-block;
+    color: $body-background-color;
+    font-weight: 600;
+    font-size: 1.75em;
+    line-height: 1em;
+    margin: .75em 0 0 .5em;
+    vertical-align: top;
+    padding: 0 0 0 .5em;
+    border-left: 1px solid #fff;
+  }
+}
+
+
+// Navigation
+
+nav {
+  ul.nav {
+    margin: 0;
+    padding: 1em 0 0 0;
+    display: block;
+    li {
+      margin: 0;
+      padding: 0;
+      display: block;
+
+    }
+    a {
+      color: $primary-color;
+      display: block;
+      text-align: left;
+    }
+  }
+}
+
+// Definition Lists
+
+dl, dd {
+  display: block;
+  margin: 0;
+  padding: .25em 0;
+}
+
+dd {
+  border-bottom: 1px solid #eee;
+}
+
+dd.color {
+  display: block;
+  width: 6em;
+  height: 6em;
+  margin: .5em 0 1.25em 0;
+  border-bottom: none;
+  &.green {
+    background: $primary-color;
+  }
+  &.gray {
+    background: $secondary-color;
+  }
+  &.secondary.green {
+    background: $tertiary-color;
+  }
+}
+
+// Font weights
+
+.regular {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+// Misc
+
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+// Footer
+
+footer {
+  background: $secondary-color;
+  a {font-weight: normal;}
+}
