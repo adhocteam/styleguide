@@ -43,14 +43,6 @@ safe: true
 markdown: kramdown
 
 collections:
-  team:
-    output: false
-  product:
-    output: true
-    permalink: /:title/
-  programs:
-    output: true
-    permalink: /:title/
 
 defaults:
     -
