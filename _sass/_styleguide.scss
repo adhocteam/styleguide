@@ -17,7 +17,7 @@ header {
     display: inline-block;
     margin: .5em .1em;
     a {
-      background: url(../img/content/logos/green-white-full-mark.png) -15px 0 no-repeat;
+      background: url(../img/content/logos/green-white-full-mark.png) -12px 0 no-repeat;
       background-size: contain;
       height: 75px;
       width: 205px;
@@ -29,9 +29,11 @@ header {
     display: inline-block;
     color: $secondary-color;
     font-weight: 600;
-    font-size: 1.75em;
+    font-size: 1em;
+    margin: 2.65em 0 2em .75em;
+    @media only screen and (min-width: 64.063em) {font-size: 1.75em; margin: 1.15em 0 0 .75em;}
     line-height: 1em;
-    margin: 1.15em 0 0 .75em;
+
     vertical-align: top;
     padding: 0em;
   }
@@ -41,32 +43,33 @@ header {
 // Navigation
 
 nav {
-  background: $tertiary-gray;
   height: 100%;
-  padding: .5em 1em;
+  padding: .7em 1em;
   position: sticky;
+  text-align: center;
   ul.nav {
     margin: 0;
     padding: 0;
     display: block;
     li {
       margin: 0;
-      padding: 0;
-      display: block;
+      padding: 0 .5em;
+      display: inline-block;
 
     }
     a {
       color: $primary-color;
       display: block;
       text-align: left;
+      padding: 1em 0;
     }
   }
 }
 
-.Logo nav ul.nav a.logo {font-weight: bold; color: $secondary-color;}
-.Colors nav ul.nav a.colors {font-weight: bold; color: $secondary-color;}
-.Typography nav ul.nav a.typography {font-weight: bold; color: $secondary-color;}
-.Writing nav ul.nav a.writing {font-weight: bold; color: $secondary-color;}
+.Logo nav ul.nav a.logo {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
+.Colors nav ul.nav a.colors {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
+.Typography nav ul.nav a.typography {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
+.Writing nav ul.nav a.writing {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
 
 
 h2, h3, h4, h5, h6 {
@@ -147,6 +150,10 @@ dd.color {
   padding: 0;
 }
 
+.secondary-color {
+  color: $secondary-color;
+}
+
 .border {
   border: 1px solid $secondary-color;
 }
@@ -160,5 +167,5 @@ dd.color {
 footer {
   margin-top: 2em;
   background: $tertiary-gray;
-  a {font-weight: normal; color: $primary-color; text-decoration: underline;}
+  a {font-weight: normal; color: $primary-color; text-decoration: underline; &:hover, &:active {color: $secondary-color;} }
 }
