@@ -62,6 +62,9 @@ nav {
       display: block;
       text-align: left;
       padding: 1em 0;
+      &:hover, &:active {
+        color: $secondary-color;
+      }
     }
   }
 }
