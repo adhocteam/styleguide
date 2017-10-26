@@ -8,7 +8,7 @@ tags:
 
 ### Voice and Tone
 
-Always be respectful, honest and considerate. A fun, quirky personality is part of who and what we are, but care should be taken to not overdo humor at the experience of clear, useful and readable content that works for everyone. Ad Hoc's voice is at all times humble, with a consistent focus on the impact our work has on people's lives.
+Ad Hoc's voice is at all times humble, with a consistent focus on the impact our work has on people's lives. Always be respectful, honest and considerate. A fun, quirky personality is part of who and what we are, but care should be taken to not overdo humor at the experience of clear, useful and readable content that works for everyone.
 
 ### Authenticity
 
