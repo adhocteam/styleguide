@@ -57,7 +57,7 @@ push origin your-branch-name`
 1. **Merge the pull request.** You might need to ask someone with
 permission to do that.
 
-1. **Refresh `adhocteam.us` to confirm your change.** It may take 5
+1. **Refresh `styleguide.adhoc.team` to confirm your change.** It may take 5
 minutes for the change to sync.
 
 You’re done! 😃
