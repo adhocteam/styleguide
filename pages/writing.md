@@ -8,7 +8,7 @@ tags:
 
 ### Voice and Tone
 
-Ad Hoc's voice is at all times humble, with a consistent focus on the impact our work has on people's lives. Always be respectful, honest and considerate. A fun, quirky personality is part of who and what we are, but care should be taken to not overdo humor at the experience of clear, useful and readable content that works for everyone.
+Ad Hoc's voice is at all times humble, with a consistent focus on the impact our work has on people's lives. Always be respectful, honest and considerate. A fun, friendly personality is part of who and what we are, but care should be taken to not overdo humor at the experience of clear, useful and readable content that works for everyone.
 
 ### Authenticity
 
@@ -20,14 +20,13 @@ Get to the point early. Create content that can be easily summarized, skimmed an
 
 ### Audience
 
-Content we create should never assume that everyone is on the same page with us. We welcome all readers in terms of experience level, familiarity with the topic at hand, and most important, difference of opinion. It's important to have strong opinions that are loosely held. Technology, policy, and accepted practices change very quickly in our industry, and it's important to allow for the fact that positions change. When writing on an advanced topic, find ways to help others learn more about the subject matter so they too can gain the same skills. If others have differences of opinion, find ways to incorporate those points of view and provide ways to make them part of the conversation, so long as it's done so in a constructive way that adds value.
+Content we create should never assume that everyone is on the same page with us. Never assume that the audience is on the same page with us. We welcome all readers in terms of experience level, familiarity with the topic at hand, and most important, difference of opinion. Technology, policy, and accepted practices change very quickly in our industry, and it's important to allow for the fact that positions change — have strong positions that are loosely held. When writing on an advanced topic, find ways to help others learn more about the subject matter so they too can gain the same skills. Don’t assuming familiarity with industry or government acronyms or terminology, or anything else that might be proprietary. Also, iff others have differences of opinion, find ways to incorporate those points of view and provide ways to make them part of the conversation, so long as it's done so in a constructive way that adds value.
 
 ### Accessibility
 
-Care should be taken to write for a sixth-grade reading level whenever possible.
-
-Given that we work in both technology and government, jargon, acronyms and insider terms are inevitable. That said, there's a great deal that can be done to mitigate that. Wherever possible, use the HTML <abbr> tag and associated title attribute to provide addition context to what a given acronym or abbreviation stands form. Alternatively, if the abbreviation is short, and provides more context, consider simply spelling out the word.  
+Accessibility should be thought about from both a technical and content perspective. For content writing, care should be taken to target a sixth-grade reading level whenever possible.
+From both a technical and content perspective, care should be taken to correctly mark up abbreviations and acronyms. Given that we work in both technology and government, jargon, acronyms and insider terms are inevitable. Wherever possible, use the HTML tag and associated title attribute to provide additional context to what a given acronym or abbreviation stands for. Alternatively, if the abbreviation is short, and provides more context, consider simply spelling out the word.
 
 ### Inclusivity
 
-Do not write content that appeals to one audience only, or assumes a given point-of-view as a default. Find ways to highlight, incorporate and respect other ways of doing things that may also be valid.  
+Do not write content that assumes a given point-of-view as a the one agreed upon by all. Find ways to contrast, incorporate, and respect other ways of thinking. Having strong opinions is something to be encouraged, but sharing these opinions should never come across as a rant, or broadside attack on others who do not share our perspective.
