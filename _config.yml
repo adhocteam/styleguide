@@ -6,7 +6,7 @@ image: /assets/img/design/icons/apple-icon-touch-157-precomposed.png
 #URL of site, include http://, do not include a trailing slash
 #url: http://localhost:4000
 twitter_username: 'adhocteam'
-url: https://styleguide.adhocteam.team
+url: https://styleguide.adhoc.team
 
 #files to exclude, array
 exclude:
