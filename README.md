@@ -60,3 +60,8 @@ permission to do that.
 minutes for the change to sync.
 
 You’re done! 😃
+
+## Optimizing the svgs
+
+* Install svgo: `npm install -g svgo`
+* Optimize all svgs in the repo: `svgo **/*.svg`
