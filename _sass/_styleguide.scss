@@ -6,9 +6,15 @@ $tertiary-color: #31B67B; // To do: Move these to the Ad Hoc core styles
 $secondary-gray: #D9D9D9;
 $tertiary-gray: #F9F9F9;
 $tertiary-green: #CDECDB;
-$penrose-green-2: url(../img/content/penrose/penrose-green-2-color.png);
-$penrose-grey-2: url(../img/content/penrose/penrose-grey-2-color.png);
-$penrose-grey-3: url(../img/content/penrose/penrose-grey-3-color.png);
+$penrose-green-detailed: url(../img/content/penrose/penrose-green-detailed-rect.png);
+$penrose-grey-detailed: url(../img/content/penrose/penrose-grey-detailed-rect.png);
+$penrose-green-2-color: url(../img/content/penrose/penrose-green-2-color-rect.png);
+$penrose-grey-2-color: url(../img/content/penrose/penrose-grey-2-color-rect.png);
+$penrose-green-subdued: url(../img/content/penrose/penrose-green-subdued-rect.png);
+$penrose-grey-subdued: url(../img/content/penrose/penrose-grey-subdued-rect.png);
+$penrose-green-stroke: url(../img/content/penrose/penrose-green-stroke-rect.png);
+$penrose-grey-stroke: url(../img/content/penrose/penrose-grey-stroke-rect.png);
+
 
 
 // Header
@@ -135,37 +141,55 @@ dd.color {
 
 // Pensrose texture swatches
 
-.texture-swatch {
-  height: 10em;
-  width: 100%;
-  background: grey;
-  background-position: 50% 0 repeat;
-  background-size: cover;
-  display: block;
-  margin: .5em 1em 1.25em 0;
-  padding: 0em 1em;
-  &.penrose-green-2 {
-    background-image: $penrose-green-2;
+.texture-swatches {
+  dd {
+    border: 0;
+    margin-bottom: 1em;
+  }
+  div {
+    height: 10em;
+    width: 95%;
+    background: transparent;
+    background-position: 50% 0 repeat;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    padding: 0.01em 1em;
     h2 {
-      color: #fff;
+      color: #222;
+      font-size: 1.2em;
+      margin-top: 1em;
     }
-    p {
-      color: #fff;
+    &.penrose-green-detailed {
+      background-image: $penrose-green-detailed;
+    }
+    &.penrose-grey-detailed {
+      background-image: $penrose-grey-detailed;
+    }
+    &.penrose-green-2-color {
+      background-image: $penrose-green-2-color;
+    }
+    &.penrose-grey-2-color {
+      background-image: $penrose-grey-2-color;
+    }
+    &.penrose-green-subdued {
+      background-image: $penrose-green-subdued;
+    }
+    &.penrose-grey-subdued {
+      background-image: $penrose-grey-subdued;
+    }
+    &.penrose-green-stroke {
+      background-image: $penrose-green-stroke;
+    }
+    &.penrose-grey-stroke {
+      background-image: $penrose-grey-stroke;
     }
   }
-  &.penrose-grey-2 {
-    background-image: $penrose-grey-2;
-  }
-  h2 {
-    color: #333;
-    font-size: 1.2em;
-    margin: .5em 0 0;
-  }
-  p {
-    color: #333;
-    margin: 0 0 .5em;
+  .green h2 {
+    color: #fff;
   }
 }
+
 
 
 // Font weights
