@@ -6,6 +6,15 @@ $tertiary-color: #31B67B; // To do: Move these to the Ad Hoc core styles
 $secondary-gray: #D9D9D9;
 $tertiary-gray: #F9F9F9;
 $tertiary-green: #CDECDB;
+$penrose-green-detailed: url(../img/content/penrose/penrose-green-detailed-rect.png);
+$penrose-grey-detailed: url(../img/content/penrose/penrose-grey-detailed-rect.png);
+$penrose-green-2-color: url(../img/content/penrose/penrose-green-2-color-rect.png);
+$penrose-grey-2-color: url(../img/content/penrose/penrose-grey-2-color-rect.png);
+$penrose-green-subdued: url(../img/content/penrose/penrose-green-subdued-rect.png);
+$penrose-grey-subdued: url(../img/content/penrose/penrose-grey-subdued-rect.png);
+$penrose-green-stroke: url(../img/content/penrose/penrose-green-stroke-rect.png);
+$penrose-grey-stroke: url(../img/content/penrose/penrose-grey-stroke-rect.png);
+
 
 
 // Header
@@ -69,10 +78,12 @@ nav {
   }
 }
 
-.Logo nav ul.nav a.logo {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
-.Colors nav ul.nav a.colors {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
-.Typography nav ul.nav a.typography {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
-.Writing nav ul.nav a.writing {font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
+.Logo nav ul.nav a.logo,
+.Colors nav ul.nav a.colors,
+.Texture nav ul.nav a.texture,
+.Typography nav ul.nav a.typography,
+.Writing nav ul.nav a.writing
+{font-weight: bold; color: $secondary-color; border-bottom: 2px solid $secondary-color;}
 
 
 h2, h3, h4, h5, h6 {
@@ -127,6 +138,59 @@ dd.color {
   }
 
 }
+
+// Pensrose texture swatches
+
+.texture-swatches {
+  dd {
+    border: 0;
+    margin-bottom: 1em;
+  }
+  div {
+    height: 10em;
+    width: 95%;
+    background: transparent;
+    background-position: 50% 0 repeat;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    padding: 0.01em 1em;
+    h2 {
+      color: #222;
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+    &.penrose-green-detailed {
+      background-image: $penrose-green-detailed;
+    }
+    &.penrose-grey-detailed {
+      background-image: $penrose-grey-detailed;
+    }
+    &.penrose-green-2-color {
+      background-image: $penrose-green-2-color;
+    }
+    &.penrose-grey-2-color {
+      background-image: $penrose-grey-2-color;
+    }
+    &.penrose-green-subdued {
+      background-image: $penrose-green-subdued;
+    }
+    &.penrose-grey-subdued {
+      background-image: $penrose-grey-subdued;
+    }
+    &.penrose-green-stroke {
+      background-image: $penrose-green-stroke;
+    }
+    &.penrose-grey-stroke {
+      background-image: $penrose-grey-stroke;
+    }
+  }
+  .green h2 {
+    color: #fff;
+  }
+}
+
+
 
 // Font weights
 
