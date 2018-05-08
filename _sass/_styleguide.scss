@@ -145,6 +145,11 @@ dd.color {
   dd {
     border: 0;
     margin-bottom: 1em;
+    p.file-links {
+      .file-link-label {
+        font-weight: bold;
+      }
+    }
   }
   div {
     height: 10em;
