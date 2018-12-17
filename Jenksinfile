@@ -1,0 +1,26 @@
+pipeline {
+  agent {
+    label 'website'
+  }
+
+  stages {
+    stage("Test build") {
+      when { changeRequest() }
+      agent { dockerfile true }
+      steps {
+        sh '''set -e
+
+              bundle install
+              bundle exec jekyll build
+       '''
+      }
+    }
+  }
+
+  post {
+    always {
+      deleteDir()
+      cleanWs()
+    }
+  }
+}
