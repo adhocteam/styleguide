@@ -6,6 +6,18 @@ $tertiary-color: #31B67B; // To do: Move these to the Ad Hoc core styles
 $secondary-gray: #D9D9D9;
 $tertiary-gray: #F9F9F9;
 $tertiary-green: #CDECDB;
+$coral: #f47648;
+$coral-darker: #c03d27;
+$coral-lighter: #fde6e0;
+$purple: #6c489d;
+$purple-darker: #401083;
+$purple-lighter: #d7cee6;
+$yellow: #feec46;
+$yellow-darker: #ccc12c;
+$yellow-lighter: #fefbe3;
+$blue: #357aab;
+$blue-darker: #175e81;
+$blue-lighter: #c9dae2;
 $penrose-green-detailed: url(../img/content/penrose/penrose-green-detailed-rect.png);
 $penrose-grey-detailed: url(../img/content/penrose/penrose-grey-detailed-rect.png);
 $penrose-green-2-color: url(../img/content/penrose/penrose-green-2-color-rect.png);
@@ -99,10 +111,6 @@ dl, dd {
   img {max-width: 100%; border: 1px solid #ddd;}
 }
 
-dd {
-  border-bottom: 1px solid #eee;
-}
-
 dt {
   font-weight: bold;
   span {display: block; font-weight: normal; text-transform: uppercase; color: $secondary-color; font-size: .75em;}
@@ -116,13 +124,10 @@ dd.color {
   display: block;
   width: 6em;
   height: 6em;
-  margin: .5em 0 1.25em 0;
+  margin: .5em 0;
   border-bottom: none;
   &.green {
     background: $primary-color;
-  }
-  &.gray {
-    background: $secondary-color;
   }
   &.secondary.green {
     background: $tertiary-color;
@@ -130,13 +135,51 @@ dd.color {
   &.tertiary.green {
     background: $tertiary-green;
   }
+  &.gray {
+    background: $secondary-color;
+  }
   &.secondary.gray {
     background: $secondary-gray;
   }
   &.tertiary.gray {
     background: $tertiary-gray;
   }
-
+  &.coral {
+    background: $coral;
+  }
+  &.coral-darker {
+    background: $coral-darker;
+  }
+  &.coral-lighter {
+    background: $coral-lighter;
+  }
+  &.purple {
+    background: $purple;
+  }
+  &.purple-darker {
+    background: $purple-darker;
+  }
+  &.purple-lighter {
+    background: $purple-lighter;
+  }
+  &.yellow {
+    background: $yellow;
+  }
+  &.yellow-darker {
+    background: $yellow-darker;
+  }
+  &.yellow-lighter {
+    background: $yellow-lighter;
+  }
+  &.blue {
+    background: $blue;
+  }
+  &.blue-darker {
+    background: $blue-darker;
+  }
+  &.blue-lighter {
+    background: $blue-lighter;
+  }
 }
 
 // Pensrose texture swatches
