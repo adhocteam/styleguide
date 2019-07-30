@@ -16,11 +16,11 @@ Written communication should always read as authentic content that was created b
 
 ### Clarity
 
-Get to the point early. Create content that can be easily summarized, skimmed and consumed in a way that is constructive, and respectful of a reader's time. Avoid embellishment, and unnecessary analogies, anecdotes or other unnecessary detours that do not add value to point being made.
+Get to the point early. Create content that can be easily summarized, skimmed and consumed in a way that is constructive, and respectful of a reader's time. Avoid embellishment, and unnecessary analogies, anecdotes or other unnecessary detours that do not add value to the point being made.
 
 ### Audience
 
-Content we create should never assume that everyone is on the same page with us. Never assume that the audience is on the same page with us. We welcome all readers in terms of experience level, familiarity with the topic at hand, and most important, difference of opinion. Technology, policy, and accepted practices change very quickly in our industry, and it's important to allow for the fact that positions change — have strong positions that are loosely held. When writing on an advanced topic, find ways to help others learn more about the subject matter so they too can gain the same skills. Don’t assuming familiarity with industry or government acronyms or terminology, or anything else that might be proprietary. Also, if others have differences of opinion, find ways to incorporate those points of view and provide ways to make them part of the conversation, so long as it's done so in a constructive way that adds value.
+Content we create should never assume that the audience is on the same page with us. We welcome all readers in terms of experience level, familiarity with the topic at hand, and most important, difference of opinion. Technology, policy, and accepted practices change very quickly in our industry, and it's important to allow for the fact that positions change — have strong positions that are loosely held. When writing on an advanced topic, find ways to help others learn more about the subject matter so they too can gain the same skills. Don’t assume familiarity with industry or government acronyms or terminology, or anything else that might be proprietary. Also, if others have differences of opinion, find ways to incorporate those points of view and provide ways to make them part of the conversation, so long as it's done so in a constructive way that adds value.
 
 ### Accessibility
 
@@ -29,4 +29,4 @@ From both a technical and content perspective, care should be taken to correctly
 
 ### Inclusivity
 
-Do not write content that assumes a given point-of-view as the one agreed upon by all. Find ways to contrast, incorporate, and respect other ways of thinking. Having strong opinions is something to be encouraged, but sharing these opinions should never come across as a rant, or broadside attack on others who do not share our perspective.
+Do not write content that assumes a given point-of-view as the one agreed upon by all. Find ways to contrast, incorporate, and respect other ways of thinking. Having strong opinions is something to be encouraged, but sharing these opinions should never come across as a rant or broadside attack on others who do not share our perspective.
