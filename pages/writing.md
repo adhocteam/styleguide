@@ -10,7 +10,7 @@ As a remote company, written communication is often how people get to know us. W
 
 This guide is a companion to the [Ad Hoc Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit) and the Content Writing Guide. This is a living document and is subject to change as Ad Hoc’s work changes. If you have questions for feedback, please contact Andre Francisco (@andre on Slack).
 
-## Content principles
+### Content principles
 
 - **Be consistent.** Use words and style consistently to earn trust and confidence from our customers and the government technology community.
 
@@ -22,7 +22,7 @@ This guide is a companion to the [Ad Hoc Brand Guidelines](https://docs.google.c
 
 - **Prioritize accessibility.** Beyond meeting Section 508 accessibility rules, take extra steps to make your content broadly accessible and inclusive, including to people unfamiliar with the subject matter. Aim to write at a 9th grade reading level.
 
-## Scope
+### Scope
 
 This style guide is designed to cover Ad Hoc’s official external and internal content and communications. If you’re writing content for a client project, follow the guides for the agency. If your project or agency does not have a style guide, you can use this guide for broad principles and refer to the AP Style Guide and the [Government Publishing Office Style Manual](https://www.govinfo.gov/app/details/GPO-STYLEMANUAL-2016/summary) for specific usage.
 
@@ -40,7 +40,7 @@ This guide is designed to cover Ad Hoc’s:
 
 - Other official written communications, both internal and external
 
-## Ad Hoc’s voice
+### Ad Hoc’s voice
 
 Part of creating a consistent style and strong brand is to use a single voice across Ad Hoc’s content and communications. Even across many authors and types of content, it’s best to use a single voice that is aligned with Ad Hoc’s brand values. Below are some attributes pulled from [Ad Hoc’s Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit) that describe the written voice we’d like to achieve.
 
@@ -60,7 +60,7 @@ Part of creating a consistent style and strong brand is to use a single voice ac
 
 While this voice should remain consistent, the tone of each piece of content should be adjusted to meet the needs of the audience and purpose of the content. Read the 18F Content Guide for a [brief explanation of the difference between voice and tone](https://content-guide.18f.gov/voice-and-tone/). In addition, we value an authentic voice for content from individual team members, such as blog posts and conference talks. Ad Hoc editors and content strategists will work with you to strike a balance between following this guide and maintaining your voice for pieces of content with your name on them.
 
-## Inclusive language and accessible style
+### Inclusive language and accessible style
 
 All Ad Hoc content should be both inclusive and accessible. By being specific in your word choices and welcoming with your formatting and tone, you will better communicate your ideas and honor Ad Hoc’s inclusive and accessible values.
 
@@ -98,7 +98,7 @@ Here are specific guidelines to consider when writing:
 
 - **Violent terms** — Some phrases and names have entered common usage that contain violent words or imagery. Avoid terms like *slave repository*, *killing it*, or *strangler pattern*. Use plain language or alternative terms instead.
 
-## Ad Hoc's style
+### Ad Hoc's style
 
 - Use sentence case capitalization for headlines and headings, the same way you would for body text.
 
@@ -118,7 +118,7 @@ Here are specific guidelines to consider when writing:
 
 - Use contractions such as *they’re* and *we’ll*. If your document is rigidly formal, you can avoid contractions to create a more conservative tone.
 
-## Specific usage
+### Specific usage
 
 The terms below are listed how they should be used, with additional explanation as appropriate.
 
@@ -164,7 +164,7 @@ The terms below are listed how they should be used, with additional explanation 
 
 - **Vets.gov**
 
-## Writing tips
+### Writing tips
 
 - Once you have your audience and purpose in mind, start with an outline. Creating even a bare-bones structure for your content will help you organize your thoughts and begin writing. Stuck on how to start? Start in the middle: skip to a later section in your outline and return to the intro when you have something on the page.
 
@@ -176,7 +176,7 @@ The terms below are listed how they should be used, with additional explanation 
 
 - If you have questions about the content of this guide or you see Ad Hoc content that you think does not follow this guide, please contact Andre (@andre) on Slack.
 
-## Helpful references
+### Helpful references
 
 - [Ad Hoc Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit?usp=sharing)
 
