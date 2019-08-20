@@ -76,7 +76,7 @@ Here are specific guidelines to consider when writing:
 
 - **Age** — Refer to someone’s age only when relevant. We prefer *older person* or *senior* to *elderly*, and *youth* or *children* to *boys and girls*. Don’t use women or older people as substitute for *novice* or *beginner*. For example, don’t say *it’s so simple your grandmother could use it*.
 
-- **Alt tags** — Ensure all images, photographs, and graphics in your content have well-written alt tags that describe the visual content on the page. This helps users with screen readers properly navigate and understand Ad Hoc’s content. Refer to the [Indiana University overview on alt text](https://ux.iu.edu/accessibility/alt-text/) or the [WebAIM tutorial on alt text](https://webaim.org/techniques/alttext/) for more details.
+- **Alt text** — Ensure all images, photographs, and graphics in your content have well-written alt attributes that describe the visual content on the page. This helps users with screen readers properly navigate and understand Ad Hoc’s content. Refer to the [Indiana University overview on alt text](https://ux.iu.edu/accessibility/alt-text/) or the [WebAIM tutorial on alt text](https://webaim.org/techniques/alttext/) for more details.
 
 - **Citizenship** — When talking about government services for people who live in the U.S., be careful about using *citizen* or *Americans* as a generic term. Be as specific as possible, and use *public*, *people*, or *folks* when talking about generic audiences.
 
