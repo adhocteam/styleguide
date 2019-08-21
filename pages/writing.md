@@ -94,7 +94,7 @@ Here are specific guidelines to consider when writing:
 
 - **Plain language** — Use simple, straightforward language whenever possible. Avoid using technical or government jargon when writing for a general audience.
 
-- **Sexual terms** — Avoid using *sexy* or other sexual terms to describe technology, projects, or our work. Use a more descriptive adjective that says exactly what you like about something.
+- **Sexual terms** — Avoid using *sexy*, *intimate*, or other sexual terms to describe technology, projects, or our work. Use a more descriptive adjective that says exactly what you like about something.
 
 - **Violent terms** — Some phrases and names have entered common usage that contain violent words or imagery. Avoid terms like *slave repository*, *killing it*, or *strangler pattern*. Use plain language or alternative terms instead.
 
