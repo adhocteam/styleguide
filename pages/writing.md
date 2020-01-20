@@ -80,7 +80,7 @@ Here are specific guidelines to consider when writing:
 
 - **Citizenship** — When talking about government services for people who live in the U.S., be careful about using *citizen* or *Americans* as a generic term. Be as specific as possible, and use *public*, *people*, or *folks* when talking about generic audiences.
 
-- **Gender** — Use gender neutral language whenever possible. Use general terms for professions that are often gendered, for example use *server* instead of *waitress*. When writing about hypothetical people, use *they* or *them* as singular pronouns instead of *he/she*. For specific people, use their preferred pronouns. Avoid phrases that assume binary gender, such as *ladies and gentlemen*.
+- **Gender** — Use gender neutral language whenever possible. When writing about hypothetical people, use *they* or *them* as singular pronouns instead of *he/she*. For specific people, use their correct pronouns. Avoid phrases that assume binary gender, such as *ladies and gentlemen*. Use general terms for professions that are often gendered, for example use *server* instead of *waitress*.
 
 - **Guys** — Use *folks*, *team*, *y’all*, or another non-gendered term when referring to a hypothetical or mixed gender group of people.
 
