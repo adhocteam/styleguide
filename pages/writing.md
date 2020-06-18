@@ -8,7 +8,7 @@ tags:
 
 As a remote company, written communication is often how people get to know us. Whether they’re federal employees, potential staff members, or folks interested in our work. As we scale and grow the breadth of our communication, we need a set of core guidelines and principles that define Ad Hoc’s writing style. These guidelines are intended to make our communications consistent, clear, and undoubtedly from Ad Hoc.
 
-This guide is a companion to the [Ad Hoc Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit) and the Content Writing Guide. This is a living document and is subject to change as Ad Hoc’s work changes. If you have questions for feedback, please contact Andre Francisco (@andre on Slack).
+This guide is a companion to the [Ad Hoc Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit). This is a living document and is subject to change as Ad Hoc’s work changes. If you have questions for feedback, please contact Andre Francisco.
 
 ### Content principles
 
@@ -24,7 +24,7 @@ This guide is a companion to the [Ad Hoc Brand Guidelines](https://docs.google.c
 
 ### Scope
 
-This style guide is designed to cover Ad Hoc’s official external and internal content and communications. If you’re writing content for a client project, follow the guides for the agency. If your project or agency does not have a style guide, you can use this guide for broad principles and refer to the AP Style Guide and the [Government Publishing Office Style Manual](https://www.govinfo.gov/app/details/GPO-STYLEMANUAL-2016/summary) for specific usage.
+This style guide is designed to cover Ad Hoc’s official external and internal content and communications. If you’re writing content for a customer project, follow the guides for that agency. If your project or agency does not have a style guide, you can use this guide for broad principles and refer to the AP Style Guide and the [Government Publishing Office Style Manual](https://www.govinfo.gov/app/details/GPO-STYLEMANUAL-2016/summary) for specific usage.
 
 This guide is designed to cover Ad Hoc’s:
 
@@ -37,6 +37,8 @@ This guide is designed to cover Ad Hoc’s:
 - Memos
 
 - Handbook
+
+- The Hub
 
 - Other official written communications, both internal and external
 
@@ -58,7 +60,7 @@ Part of creating a consistent style and strong brand is to use a single voice ac
 
 - Aspirational
 
-While this voice should remain consistent, the tone of each piece of content should be adjusted to meet the needs of the audience and purpose of the content. Read the 18F Content Guide for a [brief explanation of the difference between voice and tone](https://content-guide.18f.gov/voice-and-tone/). In addition, we value an authentic voice for content from individual team members, such as blog posts and conference talks. Ad Hoc editors and content strategists will work with you to strike a balance between following this guide and maintaining your voice for pieces of content with your name on them.
+While this voice should remain consistent, you should adjust the tone of each piece of content to meet the needs of the audience and purpose of the content. Read the 18F Content Guide for a [brief explanation of the difference between voice and tone](https://content-guide.18f.gov/voice-and-tone/). In addition, we value an authentic voice for content from individual team members, such as blog posts and conference talks. Ad Hoc editors and content strategists will work with you to strike a balance between following this guide and maintaining your voice for pieces of content with your name on them.
 
 ### Inclusive language and accessible style
 
@@ -86,7 +88,7 @@ Here are specific guidelines to consider when writing:
 
 - **Headings** — Use a consistent, logical sequence of headings when structuring your content. Begin with an h1 title and do not skip heading levels as you add more granular paragraphs. You may go back up from an h3 to an h2, but do not skip from an h2 to an h4. Refer to the [WebAIM screen reader survey (finding information)](https://webaim.org/projects/screenreadersurvey7/#finding) for more details.
 
-- **Link text** — Use descriptive words for link text. Avoid read more or click here. Descriptive links help both sighted users and people using screen readers understand where a link is going to take them. For example, “Read more about [what the San Jose team learned](https://medium.com/code-for-america/discovery-sprints-do-work-even-in-government-bb2fb0f70206) during the workshop.”
+- **Link text** — Use descriptive words for link text. Avoid *read more* or *click here*. Descriptive links help both sighted users and people using screen readers understand where a link is going to take them. For example, “Read more about [what the San Jose team learned](https://medium.com/code-for-america/discovery-sprints-do-work-even-in-government-bb2fb0f70206) during the workshop.”
 
 - **Marginalized populations** — When writing about people that have been systematically excluded from aspects of American life, be as specific as possible. Avoid generalizations about underrepresented groups, acknowledge that people are multidimensional, and allow individuals to choose how they would like to be identified. See the [Conscious Style Guide](https://consciousstyleguide.com/) for specific recommendations.
 
@@ -152,8 +154,6 @@ The terms below are listed how they should be used, with additional explanation 
 
 - **MACFin**
 
-- **team members**, not *employees* or *resources*
-
 - **Search.gov**
 
 - **U.S.**, **U.S. government**
@@ -172,19 +172,17 @@ The terms below are listed how they should be used, with additional explanation 
 
 - When in doubt, narrow the scope of your content. You should aim to communicate one central idea in each piece of content. If a blog post begins to feel like a novel, break it into a series. Make it a priority to create content your audience can consume and understand in one sitting.
 
-- Ask for help, the more specific the better. Let editors know what you’re struggling with and what type of feedback would be helpful. Do you need help ensuring every comma meets Ad Hoc style or are you concerned with the logical flow of the content? Setting expectations can help editors give you the feedback that will be most useful. Andre Francisco can help you through the [Content Request Form](https://forms.gle/3dbrd6JYD3vv6fPE9) or you can poll the audience in #writing for quick questions.
+- Ask for help, the more specific the better. Let editors know what you’re struggling with and what type of feedback would be helpful. Do you need help ensuring every comma meets Ad Hoc style or are you concerned with the logical flow of the content? Setting expectations can help editors give you the feedback that will be most useful. Andre Francisco can help you at any step of the writing process or you can poll the audience in #writing for quick questions.
 
-- If you have questions about the content of this guide or you see Ad Hoc content that you think does not follow this guide, please contact Andre (@andre) on Slack.
+- If you have questions about the content of this guide or you see Ad Hoc content that you think does not follow this guide, please contact Andre on Slack.
 
 ### Helpful references
 
 - [Ad Hoc Brand Guidelines](https://docs.google.com/document/d/1cYj9iC-8RuxBH8ufc8pYR_aiLSgn8Dk4xjYZXduTv04/edit?usp=sharing)
 
-- [Writing content at Ad Hoc](https://docs.google.com/document/d/1x-xBL8UNZSF15RtXzTDCBcF4OHlbyYG9LqlTzrrelP8/edit?usp=sharing)
-
 - [18F Content Guide](https://content-guide.18f.gov/)
 
-- [USA.gov BIlingual Content Guide](https://www.usa.gov/style-guide/table-of-contents)
+- [USA.gov Bilingual Content Guide](https://www.usa.gov/style-guide/table-of-contents)
 
 - [VA Content Guide](https://design.va.gov/content-style-guide/)
 
