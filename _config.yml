@@ -18,6 +18,8 @@ exclude:
   - Rakefile
   - README.md
   - tests
+  - Dockerfile
+  - Jenkinsfile
 
 #posts per page
 # paginate:
