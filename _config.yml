@@ -20,6 +20,8 @@ exclude:
   - tests
   - Dockerfile
   - Jenkinsfile
+    # the jenkins file is misspelled for some reason?
+  - Jenksinfile
 
 #posts per page
 # paginate:
