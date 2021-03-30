@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'jekyll', '~> 3.8.0'
+gem 'jekyll', '~> 3.9.0'
 gem 'html-proofer'
 
 gem 'jekyll-admin', group: :jekyll_plugins
