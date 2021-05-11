@@ -1,9 +1,19 @@
 <nav role="navigation" class="mt2">
   <ul class="nav">
-    <li><a class="logo" href="{{ site.url }}/logo/">Logos</a></li>
-    <li><a class="colors" href="{{ site.url }}/colors/">Colors</a></li>
-    <li><a class="texture" href="{{site.url}}/texture/">Texture</a></li>
-    <li><a class="typography" href="{{ site.url }}/typography/">Type</a></li>
-    <li><a class="writing" href="{{ site.url }}/writing/">Writing</a></li>
+    <li>
+      <a class="logo" href="{{ '/logo/' | relative_url }}">Logos</a>
+    </li>
+    <li>
+      <a class="colors" href="{{ '/colors/' | relative_url }}">Colors</a>
+    </li>
+    <li>
+      <a class="texture" href="{{ '/texture/' | relative_url }}">Texture</a>
+    </li>
+    <li>
+      <a class="typography" href="{{ '/typography/' | relative_url }}">Type</a>
+    </li>
+    <li>
+      <a class="writing" href="{{ '/writing/' | relative_url }}">Writing</a>
+    </li>
   </ul>
 </nav>
