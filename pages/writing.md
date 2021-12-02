@@ -124,6 +124,8 @@ Here are specific guidelines to consider when writing:
 
 The terms below are listed how they should be used, with additional explanation as appropriate.
 
+- **Accessibility Beyond Compliance**
+-
 - **Ad Hoc**
 
 - **adhoc.team**
