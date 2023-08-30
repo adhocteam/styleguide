@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem 'jekyll', '~> 4.2.0'
+gem 'liquid', '4.0.4'
 gem 'html-proofer'
 
 gem 'jekyll-admin', group: :jekyll_plugins
