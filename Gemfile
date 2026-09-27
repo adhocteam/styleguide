@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'jekyll', '~> 4.2.0'
+gem 'jekyll', '~> 4.4.1'
 gem 'liquid', '4.0.4'
 gem 'html-proofer'
 
