@@ -10,4 +10,4 @@ gem 'html-proofer'
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap', group: :jekyll_plugins
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.9"
