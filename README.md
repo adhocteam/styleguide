@@ -28,14 +28,6 @@ instead of `build` and go to `http://localhost:4000/`. This will keep
 a persistent process around and rebuild the site when source files
 change, too.
 
-## F-08 asset checks
-
-The site redirects visitors to the Brand Toolkit and no longer needs jQuery.
-After building, run `python3 tests/test_published_assets.py` to check that every
-page keeps its redirect, local script references resolve, and the published
-JavaScript contains no jQuery versions below 3.5.0. The checks also confirm that
-the reported `/assets/js/vendor/jquery-1.7.2.min.js` URL returns 404 locally.
-
 ## Publishing the site 📤
 
 The workflow for publishing the site is: commit changes to the source
