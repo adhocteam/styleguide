@@ -90,7 +90,7 @@ GEM
       ttfunk
     public_suffix (5.0.3)
     racc (1.7.1)
-    rack (2.2.8)
+    rack (2.2.23)
     rack-protection (3.1.0)
       rack (~> 2.2, >= 2.2.4)
     rainbow (3.1.1)
